@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_reusable_rigth_side_about_uses",
+  "info": {
+    "displayName": "Rigth-side-about-us",
+    "icon": "arrowRight"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reusable.label"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "left": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reusable.left-side-about-us"
+    },
+    "rigth": {
+      "type": "component",
+      "repeatable": false,
+      "component": "reusable.rigth-side-about-us"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_reusable_labels",
+  "info": {
+    "displayName": "label",
+    "icon": "filter"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
