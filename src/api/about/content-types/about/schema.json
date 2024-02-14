@@ -12,18 +12,30 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "left": {
+    "LeftAbout": {
       "type": "component",
-      "repeatable": false,
-      "component": "reusable.left-side-about-us"
-    },
-    "rigth": {
-      "type": "component",
-      "repeatable": false,
-      "component": "reusable.rigth-side-about-us"
+      "repeatable": true,
+      "component": "reusable.ms-text"
     },
     "title": {
-      "type": "string"
+      "type": "component",
+      "repeatable": false,
+      "component": "reusable.ms-text"
+    },
+    "RigthAbout": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reusable.ms-text"
+    },
+    "avtar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

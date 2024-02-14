@@ -793,9 +793,10 @@ export interface ApiAboutAbout extends Schema.SingleType {
     draftAndPublish: true;
   };
   attributes: {
-    left: Attribute.Component<'reusable.left-side-about-us'>;
-    rigth: Attribute.Component<'reusable.rigth-side-about-us'>;
-    title: Attribute.String;
+    LeftAbout: Attribute.Component<'reusable.ms-text', true>;
+    title: Attribute.Component<'reusable.ms-text'>;
+    RigthAbout: Attribute.Component<'reusable.ms-text', true>;
+    avtar: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

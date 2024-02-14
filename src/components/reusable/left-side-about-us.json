@@ -2,21 +2,15 @@
   "collectionName": "components_reusable_left_side_about_uses",
   "info": {
     "displayName": "left-side-about-us",
-    "icon": "arrowLeft"
+    "icon": "arrowLeft",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "first": {
-      "type": "text"
-    },
-    "second": {
-      "type": "text"
-    },
-    "third": {
-      "type": "text"
+    "asdf": {
+      "type": "component",
+      "repeatable": true,
+      "component": "reusable.ms-text"
     }
   }
 }

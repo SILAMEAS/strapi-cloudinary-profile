@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_reusable_ms_texts",
+  "info": {
+    "displayName": "MSText",
+    "icon": "strikeThrough"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "style": {
+      "type": "json"
+    }
+  }
+}

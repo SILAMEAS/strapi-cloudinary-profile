@@ -94,12 +94,22 @@ export interface ReusableLeftSideAboutUs extends Schema.Component {
   info: {
     displayName: 'left-side-about-us';
     icon: 'arrowLeft';
+    description: '';
   };
   attributes: {
-    title: Attribute.String;
-    first: Attribute.Text;
-    second: Attribute.Text;
-    third: Attribute.Text;
+    asdf: Attribute.Component<'reusable.ms-text', true>;
+  };
+}
+
+export interface ReusableMsText extends Schema.Component {
+  collectionName: 'components_reusable_ms_texts';
+  info: {
+    displayName: 'MSText';
+    icon: 'strikeThrough';
+  };
+  attributes: {
+    text: Attribute.Text;
+    style: Attribute.JSON;
   };
 }
 
@@ -126,6 +136,7 @@ declare module '@strapi/types' {
       'reusable.card': ReusableCard;
       'reusable.label': ReusableLabel;
       'reusable.left-side-about-us': ReusableLeftSideAboutUs;
+      'reusable.ms-text': ReusableMsText;
       'reusable.rigth-side-about-us': ReusableRigthSideAboutUs;
     }
   }
