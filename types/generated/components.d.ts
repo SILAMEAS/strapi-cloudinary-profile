@@ -97,7 +97,7 @@ export interface ReusableLeftSideAboutUs extends Schema.Component {
     description: '';
   };
   attributes: {
-    asdf: Attribute.Component<'reusable.ms-text', true>;
+    leftSide: Attribute.Component<'reusable.ms-text', true>;
   };
 }
 
@@ -106,10 +106,13 @@ export interface ReusableMsText extends Schema.Component {
   info: {
     displayName: 'MSText';
     icon: 'strikeThrough';
+    description: '';
   };
   attributes: {
     text: Attribute.Text;
-    style: Attribute.JSON;
+    tailwind: Attribute.Text;
+    mui: Attribute.Text;
+    css: Attribute.Text;
   };
 }
 

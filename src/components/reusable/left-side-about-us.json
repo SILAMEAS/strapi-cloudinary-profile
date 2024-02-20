@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "asdf": {
+    "leftSide": {
       "type": "component",
       "repeatable": true,
       "component": "reusable.ms-text"
